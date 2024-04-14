@@ -1,0 +1,258 @@
+:root {
+  --bg: #1e1e2e;
+  --bginv: #e1e1d1;
+  --bgtr: #1e1e2e00;
+  --bgtr85: #1e1e2ecf;
+  --bg2: #181825;
+  --s1: #45475a;
+  --t: #cdd6f4;
+  --t1: #bac2de;
+  --accent: #74c7ec;
+  --light: #6c7086;
+  --visited: #a6e3a1;
+  --s2: #585b70;
+  --s0: #313244;
+  --o2: #9399b2;
+  --su1: #bac2de;
+  --su0: #a6adc8;
+  --blue: #89b4fa;
+  --lavender: #b4befe;
+  --d: #11111b;
+  --pink: #f5c2e7;
+  --red: #f38ba8;
+}
+
+body,
+#mw-head,
+.toccolours,
+.mw-body,
+.mw-parser-output .navbox-container,
+.mw-parser-output .navbox-even,
+.vector-menu-tabs-legacy a,
+.cdx-button:enabled.cdx-button--weight-primary.cdx-button--action-progressive,
+.mw-parser-output .hauptseite-box-content {
+  background-color: var(--bg);
+}
+
+table.hintergrundfarbe1,
+.hintergrundfarbe1,
+.toc,
+.mwe-popups .mwe-popups-container,
+.vector-search-box-input,
+.catlinks,
+.mw-parser-output .navbox-odd,
+.cdx-button:enabled,
+.wikitable > * > tr > td,
+.suggestions-results,
+.suggestions-current,
+.suggestions-special {
+  background-color: var(--bg2);
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#mwe-popups-settings main#mwe-popups-settings-form p,
+.vector-user-menu-legacy #pt-anonuserpage,
+.mw-heading,
+.vector-menu-tabs-legacy .selected a,
+.vector-menu-tabs-legacy .selected a:visited,
+.tocnumber,
+.mw-body,
+.wikitable,
+.mw-parser-output .charts-trh,
+.mw-parser-output .charts-th,
+.cdx-button:enabled,
+.vector-search-box-input,
+.suggestions-result,
+.suggestions-result-current,
+.suggestions a.mw-searchSuggest-link,
+.suggestions-result-current .special-query,
+.suggestions-special .special-query,
+.suggestions-result-current .special-label,
+.wikitable > * > tr > th {
+  color: var(--t);
+}
+
+a,
+#mwe-popups-settings main#mwe-popups-settings-form form label > span,
+.toctogglelabel,
+.vector-menu-tabs-legacy li a,
+.vector-legacy-sidebar .vector-menu-portal .vector-menu-content li a,
+.mwe-popups .mwe-popups-container a,
+.cdx-button:enabled.cdx-button--weight-primary.cdx-button--action-progressive,
+.mw-parser-output a.external {
+  color: var(--accent);
+}
+
+#mwe-popups-settings,
+#mwe-popups-settings header,
+.toc,
+.rahmenfarbe1,
+.vector-search-box-input,
+.mw-body,
+.mw-image-border .mw-file-element,
+.catlinks,
+.mw-parser-output tr + tr > .navbox-abovebelow,
+.mw-parser-output tr + tr > .navbox-group,
+.mw-parser-output tr + tr > .navbox-list,
+.mw-parser-output .navbox-list,
+.wikitable,
+.wikitable > * > tr > td {
+  border: 1px solid var(--light);
+}
+
+a:visited,
+.vector-legacy-sidebar .vector-menu-portal .vector-menu-content li a:visited {
+  color: var(--visited);
+}
+
+.mw-wiki-logo {
+  background-image: url(https://i.ibb.co/BzRDgyT/dewiki.png);
+}
+
+.searchButton[name="go"] {
+  background: no-repeat center / 1.23076923em
+    url(/w/skins/Vector/resources/skins.vector.styles.legacy/images/search.svg?a45d6);
+  filter: invert(100%);
+}
+
+#mw-head .vector-menu-dropdown .vector-menu-heading .vector-menu-tabs,
+.vector-menu-tabs a {
+  background-image: linear-gradient(
+    to bottom,
+    var(--bgtr) 0,
+    var(--light) 100%
+  );
+}
+
+.wb-langlinks-link > a:link {
+  color: var(--s2) !important;
+}
+
+.mwe-popups .mwe-popups-extract[dir="ltr"]::after {
+  background-image: linear-gradient(to right, var(--bgtr), var(--bg) 50%);
+}
+
+.mwe-popups {
+  background: var(--bgtr);
+}
+
+.popups-icon {
+  filter: invert(100%);
+}
+
+.mwe-popups-overlay {
+  background-color: var(--bgtr85);
+}
+
+.cdx-button:enabled.cdx-button--weight-primary.cdx-button--action-progressive {
+  border-color: var(--bg2);
+}
+
+.infobox {
+  border: 1px solid var(--light) !important;
+}
+
+table > * > tr > th.hintergrundfarbe6,
+.hintergrundfarbe6,
+.mw-parser-output .charts-zebragrey > tbody > tr:nth-of-type(even) {
+  background-color: var(--s1);
+}
+
+.hintergrundfarbe5,
+table > * > tr > th.hintergrundfarbe5,
+table.hintergrundfarbe5,
+.mw-parser-output th.navbox-group,
+#mwe-popups-settings,
+.mw-parser-output .charts-trh,
+.mw-parser-output .charts-th,
+.suggestions-result-current {
+  background-color: var(--s0);
+}
+
+.mw-body {
+  margin-top: 1px;
+}
+
+figure[typeof~="mw:File/Thumb"] > figcaption {
+  border: 1px solid var(--light);
+  border-top: none;
+  background-color: var(--bg2);
+}
+
+figure[typeof~="mw:File/Thumb"] > :not(figcaption) .mw-file-element {
+  border: 1px solid var(--light);
+  background-color: var(--bg);
+}
+
+figure[typeof~="mw:File/Thumb"] {
+  border: 1px solid var(--light);
+  border-bottom: none;
+  background-color: var(--bg2);
+}
+
+.vector-legacy-sidebar .vector-menu-portal .vector-menu-heading {
+  color: var(--t1);
+}
+
+.mw-footer li {
+  color: var(--su0);
+}
+
+.NavHead {
+  background-color: var(--d) !important;
+}
+
+.navbox-abovebelow {
+  background-color: var(--s1) !important;
+}
+
+.wikitable > tbody > tr > td:nth-of-type(1) {
+  background-color: var(--s0) !important;
+}
+
+svg {
+  filter: invert(100%);
+}
+
+.noprint.float-right.navigation-not-searchable > * {
+  background-color: var(--bg2) !important;
+  border-color: var(--light) !important;
+}
+
+.mw-parser-output .hauptseite-box-title,
+.wikitable > * > tr > th {
+  background-color: var(--d);
+}
+
+a.new {
+  color: var(--red);
+}
+
+.suggestions-special .special-label {
+  color: var(--s2);
+}
+
+.navbox-container.NavFrame.navigation-not-searchable
+  > *
+  td
+  > table
+  > tbody
+  > tr
+  > th {
+  background-color: var(--bg) !important;
+}
+
+table > tbody > tr {
+  background-color: var(--s0) !important;
+}
+
+.mw-parser-output .charts-nxa {
+  background: repeating-linear-gradient(45deg, var(--bg) 10px, var(--s2) 15px);
+}
